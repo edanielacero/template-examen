@@ -1,11 +1,14 @@
 class examen
     def inicializar
-        @montoinicial=0
+        @monto=0
     end    
     def setMonto(monto)
         @monto=monto
     end
-    def getMonto(){
+    def getMonto()
         return @monto
-    }
+    end
+    def depositar(monto)
+        montoinicial
+    end
 end    
