@@ -1,14 +1,17 @@
 class examen
     def inicializar
-        @monto=0
+        @montoi=0
     end    
     def setMonto(monto)
-        @monto=monto
+        @montoi=monto
     end
     def getMonto()
-        return @monto
+        return @montoi
     end
     def depositar(monto)
-        montoinicial
+        montoi=montoi+monto
+    end
+    def retirar()
+        montoi=montoi-monto
     end
 end    
